@@ -1,0 +1,46 @@
+========================
+GIT COMMANDS
+========================
+
+# Check changes
+git status
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Your message"
+
+# Push code to GitHub
+git push origin main
+
+# Pull latest code
+git pull origin main
+
+# View commit history
+git log --oneline
+
+========================
+FIRST TIME SETUP
+========================
+
+# Initialize Git
+git init
+
+# Connect GitHub repository
+git remote add origin <repo-url>
+
+# Create main branch
+git branch -M main
+
+# First push
+git push -u origin main
+
+========================
+DAILY WORKFLOW
+========================
+
+git status
+git add .
+git commit -m "Solved Array Questions"
+git push origin main
